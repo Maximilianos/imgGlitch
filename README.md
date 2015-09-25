@@ -18,6 +18,14 @@ npm i img-glitch
 
 ## Usage
 
+The Html: A base 64 encoded image:
+
+```html
+<img src="data:image/jpg;base64,/9j/4QAYRXhpZgA ... ... h/sUH//2Q=="/>
+```
+
+The JS:
+
 ```javascript
 import imgGlitch from 'img-glitch';
 
