@@ -1,0 +1,34 @@
+{
+  "name": "img-glitch",
+  "version": "1.0.0",
+  "description": "render an image glitching effect based on base64 encoded images",
+  "main": "imgGlitch.js",
+  "scripts": {
+    "transpile": "babel imgGlitch.js --modules umd --out-dir dist",
+    "minify": "uglifyjs dist/imgGlitch.js --compress --screw-ie8 --mangle --output dist/imgGlitch.min.js",
+    "build": "npm run transpile && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Maximilianos@github.com/Maximilianos/imgGlitch.git"
+  },
+  "keywords": [
+    "glitch",
+    "image",
+    "img",
+    "corrupt",
+    "corruption",
+    "base64",
+    "base64encoding"
+  ],
+  "author": "Max GJ Panas <m@maxpanas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maximilianos/imgGlitch/issues"
+  },
+  "homepage": "https://github.com/Maximilianos/imgGlitch#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "uglifyjs": "^2.4.10"
+  }
+}
