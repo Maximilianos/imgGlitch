@@ -38,6 +38,8 @@ glitch.stop();
 glitch.clear();
 ```
 
+[Demo on codepen](http://codepen.io/Maximilianos/pen/mergqg?editors=001)
+
 ## License
 
 MIT
