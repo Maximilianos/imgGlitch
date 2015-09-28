@@ -1,6 +1,6 @@
 {
   "name": "img-glitch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "render an image glitching effect based on base64 encoded images",
   "main": "dist/imgGlitch.js",
   "scripts": {
