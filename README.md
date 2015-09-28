@@ -8,8 +8,6 @@ This module is the code from Luca's pen without the jQuery dependency and wrappe
 
 ## Install
 
-<b>*</b> NPM Publish Coming soon.
-
 Via [npm](https://www.npmjs.com/package/img-glitch)
 
 ```
