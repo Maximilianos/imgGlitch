@@ -2,7 +2,7 @@
   "name": "img-glitch",
   "version": "1.0.0",
   "description": "render an image glitching effect based on base64 encoded images",
-  "main": "imgGlitch.js",
+  "main": "dist/imgGlitch.js",
   "scripts": {
     "transpile": "babel imgGlitch.js --modules umd --out-dir dist",
     "minify": "uglifyjs dist/imgGlitch.js --compress --screw-ie8 --mangle --output dist/imgGlitch.min.js",
